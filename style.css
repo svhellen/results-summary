@@ -1,0 +1,119 @@
+@charset "UTF-8"
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+body {
+    
+}
+
+main {
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    color: lightgray;
+}
+
+h1 {
+    color: white;
+}
+
+#result {
+    text-align: center;
+    max-width: 370px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+#score {
+    text-align: center;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) , hsla(241, 72%, 46%, 0));
+    width: 80px;/**/
+    height: 120px;
+    border-radius: 50%;
+    padding: 50px;
+    padding-bottom: 0;
+    margin: 20px auto;
+}
+
+#score h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+#score p {
+    margin: 0;
+}
+
+#summary {
+    color: black;
+    text-align: left;
+    background-color: white;
+    width: 370px;
+    margin: auto;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 0px 18px;
+    margin: 10px 0px;
+}
+
+li p {
+    color: gray;
+}
+
+li p strong {
+    color: black;
+
+}
+
+#reaction {
+    list-style: url(assets/images/icon-reaction.svg) inside;
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+#memory {
+    list-style: url(assets/images/icon-memory.svg) inside;
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+#verbal {
+    list-style: url(assets/images/icon-verbal.svg) inside;
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+#visual {
+    list-style: url(assets/images/icon-visual.svg) inside;
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+button {
+    width: 100%;
+    height: 55px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    border: 0;
+}
